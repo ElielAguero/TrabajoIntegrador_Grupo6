@@ -1,22 +1,20 @@
-
-.titulo-index h1{
+.titulo-index h1 {
     font-size: 15rem;
 }
-.fondo .silder1{
+
+.fondo .silder1 {
     background-image: url(Imagenes/silder2.jpg);
-
 }
-.fondo .silder2{
+
+.fondo .silder2 {
     background-image: url(Imagenes/silder1.jpg);
-
 }
 
-.fondo div{ 
+.fondo div {
     height: 87vh;
     background-repeat: none;
     background-size: cover;
     background-attachment: fixed;
-    
 }
 
 .fondo .silder1 h3 {
@@ -25,56 +23,56 @@
     color: #ffffff;
     margin-top: 20%;
 }
-.fondo .silder2 h3{
+
+.fondo .silder2 h3 {
     font-family: 'Fjalla One', sans-serif;
     margin: auto;
     color: #FFEE4F;
     margin-top: 20%;
-
 }
+
 .fondo .silder1 h3 span {
-    color:#FFEE4F;
-
+    color: #FFEE4F;
 }
-.fondo .silder2 h3 span{
+
+.fondo .silder2 h3 span {
     color: #000000;
 }
 
-.fondo .silder1 button{
+.fondo .silder1 button {
     margin-top: 1%;
 }
 
-.fondo .silder1 button:hover{
+.fondo .silder1 button:hover {
     background-color: #FFEE4F;
     color: #000;
     font-weight: bold;
-    transform: translate(10px) ;
-    box-shadow: 0 5px 5px 0 rgba(0, 0, 0,.4);
+    transform: translate(10px);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .4);
     transition: 1s;
     border: none;
 }
 
-.fondo .silder2 button:hover{
-    transform: translate(5px) ;
-    box-shadow: 0 5px 5px 0 rgba(0, 0, 0,.4);
+.fondo .silder2 button:hover {
+    transform: translate(5px);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .4);
     transition: 1s;
     background-color: transparent;
     border-color: #FFEE4F;
     color: #FFEE4F;
-
 }
-div .logo{
-    color:#ffffff;
+
+div .logo {
+    color: #ffffff;
     font-family: 'Francois One', sans-serif;
     font-size: x-large;
-
 }
-div .logo span{
+
+div .logo span {
     color: #E8C63C;
 }
 
-
-.container-footer{
+.container-footer {
     width: 100%;
     height: 7%;
     position: fixed;
@@ -82,11 +80,13 @@ div .logo span{
     background-color: #000000;
     text-decoration: none;
 }
-.container-footer-ul{
+
+.container-footer-ul {
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
+
 .container-footer-ul li {
     display: inline-block;
     width: 50px;
@@ -94,109 +94,118 @@ div .logo span{
     text-align: center;
 }
 
-.container-footer-ul li a{
+.container-footer-ul li a {
     display: block;
     padding: 0 10px;
     background-color: transparent;
     color: #ffffff;
     line-height: 50px;
     font-size: 18px;
-    box-shadow: 0 3px 5px 0 rgba(0, 0, 0,.2);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
     transition: .4s;
     text-decoration: none;
 }
-.container-footer-ul:hover a{
+
+.container-footer-ul:hover a {
     filter: blur(2px);
 }
 
-.container-footer-ul li a:hover{
+.container-footer-ul li a:hover {
     transform: translateY(-21px) scale(1.05);
-    box-shadow: 0 5px 5px 0 rgba(0, 0, 0,.4);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .4);
     filter: none;
+}
 
-}
-.container-footer-ul li .facebook:hover{
-    background-color: #ffffff ;
+.container-footer-ul li .facebook:hover {
+    background-color: #ffffff;
     color: #000;
 }
-.container-footer-ul li .twitter:hover{
-    background-color: #ffffff ;
-    color: #000;
-}
-.container-footer-ul li .instagram:hover{
-    background-color: #ffffff ;
-    color: #000;
 
-}
-.container-footer-ul li .whatsapp:hover{
-   background-color: #ffffff ;
+.container-footer-ul li .twitter:hover {
+    background-color: #ffffff;
     color: #000;
-
 }
+
+.container-footer-ul li .instagram:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.container-footer-ul li .whatsapp:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
 
 /* STYLE PRODUCTOS */
-.productos h1 ,.faq h1 ,.contacto h1 ,.encontranos h1{
+
+.productos h1,
+.faq h1,
+.contacto h1,
+.encontranos h1 {
     font-family: 'Fjalla One', sans-serif;
     color: #ffffff;
     letter-spacing: 0.07em;
     text-shadow: -7px 3px 0 #E8C63C;
     margin-bottom: 3%;
 }
-.silder1 .boton-con{
+
+.silder1 .boton-con {
     border-color: #FFEE4F;
     color: #FFEE4F;
 }
-.silder2 .boton-form{
-    background:#0D0C0C;
-    color:#FFEE4F ;
+
+.silder2 .boton-form {
+    background: #0D0C0C;
+    color: #FFEE4F;
 }
-
-
 
 
 /* STYLE CONTACTO */
-.formulario div button{
+
+.formulario div button {
     border: 1px solid #E8C63C;
-    background-color:transparent ;
+    background-color: transparent;
     color: #ffffff;
 }
-.formulario div button:hover{
+
+.formulario div button:hover {
     background-color: #E8C63C;
     color: #ffffff;
     transition: 1s;
     border: #E8C63C;
     color: #000000;
-    
 }
-.contacto{
+
+.contacto {
     margin-top: 3%;
     padding-bottom: 40px;
-
 }
 
 
 /* ANIMACIONES */
 
-
-.logo{
+.logo {
     animation: tada 3;
 }
 
 
 /* CONOCENOS */
 
-.conocenos{
+.conocenos {
     width: 100vw;
     height: 60vh;
     background-color: #E8C63C;
     display: flex;
 }
-.titulo{
+
+.titulo {
     position: absolute;
     left: 0;
     margin-left: 10%;
 }
-.titulo h3{
+
+.titulo h3 {
     width: 40vh;
     margin-left: 3%;
     font-family: 'Fjalla One', sans-serif;
@@ -204,48 +213,57 @@ div .logo span{
     letter-spacing: 0.07em;
     text-shadow: -7px 3px 0 #000000;
     padding-top: 100px;
-    font-size: 110px;    
-
+    font-size: 110px;
 }
-.texto{
+
+.texto {
     position: absolute;
     right: 0;
     margin-right: 10%;
     width: 60vh;
 }
-.texto p{
+
+.texto p {
     padding-top: 110px;
     font-family: 'Fjalla One', sans-serif;
-
 }
-.app{
+
+.app {
     height: 30vh;
     padding-bottom: 50px;
 }
-.app ul{
+
+.app ul {
     margin-left: 35%;
 }
-.app ul li{
+
+.app ul li {
     display: inline-block;
     padding-left: 40px;
     margin-top: 160px;
 }
 
-.app ul li i{
+.app ul li i {
     font-size: 60px;
-
-
 }
 
-.nosotros{
-
+.nosotros {
     padding-top: 50px;
     display: flex;
     align-content: center;
     justify-content: center;
     padding-bottom: 20px;
+    height: 70vh;
 }
-.person1{
+
+.person1 {
     margin: 30px;
     background-color: transparent;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.divtexto {
+    border: none;
+    outline: none;
 }
